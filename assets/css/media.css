@@ -51,18 +51,17 @@ nav{
   top: -20px;
   color: #FDB515;
 }
-
 .tab a{
   text-decoration: none;
   color: #FDB515;
 }
 
-#tab1 {
-  transform: scale(1.1);
+#tab4 {
+  transform: scale(1.2);
   font-weight: bold;
 }
 
-.tab:not(#tab1):hover {
+.tab:not(#tab4):hover {
   transform:scale(1.1);
   transition: 50ms;
   font-weight: bold;
@@ -73,47 +72,20 @@ body {
   margin: 0;
 }
 
-.text-container {
-  position: absolute;
+.main-container {
   text-align: center;
   width: 100%;
   height: 100%;
-  background: url("../images/sf.jpg");
+  background: url("../images/space.jpg");
   background-size: cover;
   background-position: center bottom;
-  background-repeat: no-repeat;
-}
-
-.picture-main img {
-  width: 100%;
 }
 
 .overlay {
+  background-color: rgba(0,0,0,0.9);
   position: absolute;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
   width: 100%;
   height: 100%;
   z-index: 5;
-}
-
-.maintext {
-  position: absolute;
-  margin: 20px 15% auto;
-  font-size: 12px;
-  color: #FFFFFF;
-  margin-top: 180px;
-  letter-spacing: 1.4px;
-  text-align: left;
-  z-index: 10;
-  font-weight: lighter;
-}
-
-.text2 {
-  font-weight: normal;
-  font-size: 50px;
-  text-align: right;
-  margin-top: 50px;
-  color: #FDB515;
-  letter-spacing: 2px;
-  font-weight: bolder;
 }
