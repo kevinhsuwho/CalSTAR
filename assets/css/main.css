@@ -2,7 +2,6 @@
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
-
 nav{
   position: fixed;
   width: 100%;
@@ -13,13 +12,13 @@ nav{
   top: 0;
   text-align: center;
   background-color: #003262;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   z-index: 10;
 }
 
 .logo {
   display: inline-block;
-  width: 120px;
+  width: 100px;
   height: auto;
   margin: 0 20px;
 }
@@ -36,6 +35,7 @@ nav{
   color: #FDB515;
   letter-spacing: 1.5px;
   font-weight: lighter;
+  font-size: 15px;
 }
 
 .tab {
@@ -43,18 +43,61 @@ nav{
   display: inline-block;
   position: relative;
   top: -25px;
+  color: #FDB515;
+}
+
+.tab a{
+  text-decoration: none;
+  color: #FDB515;
+}
+
+.tab:hover {
+  transform:scale(1.1);
+  transition: 50ms;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
 }
 
 .picture-overlay {
-
-}
-
-.picture-container img {
-  width: 100%;
-  margin: 0 auto;
+  position: absolute;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%);    width: 100%;
+  height: 100%;
+  z-index: 5;
 }
 
 .picture-main {
   width: 100%;
-  opacity: 0.8;
+  height: 100%;
+  background: url("../images/starlaunch.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index:1;
+}
+
+.picture-maintext {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 200px);
+  color: white;
+  font-size: 30px;
+  float: left;
+  letter-spacing: 2px;
+  font-weight: 100;
+  color: #FFFFFF;
+  z-index: 10;
+}
+
+.picture-text1 {
+  padding-bottom: 20px;
+  font-weight: bolder;;
+}
+
+.picture-text2 {
+  color: #FDB515;
+  font-size: 20px;
 }
