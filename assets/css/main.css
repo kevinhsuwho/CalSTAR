@@ -88,7 +88,7 @@ body {
 .picture-maintext {
   position: absolute;
   top: calc(50% - 75px);
-  left: calc(50% - 175px);
+  left: calc(50% - 105px);
   color: white;
   font-size: 30px;
   float: left;
