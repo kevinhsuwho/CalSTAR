@@ -17,14 +17,15 @@ nav{
   left: 0;
   top: 0;
   text-align: center;
-  background-color: #003262;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 10;
 }
 
 .logo {
+  position: relative;
+  top: 2px;
   display: inline-block;
-  width: 80px;
+  width: 75px;
   height: auto;
   margin: 0 20px;
 }
@@ -41,14 +42,14 @@ nav{
   color: #FDB515;
   letter-spacing: 2px;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .tab {
   margin: 0 20px;
   display: inline-block;
   position: relative;
-  top: -18px;
+  top: -16.5px;
   color: #FDB515;
 }
 
@@ -94,30 +95,33 @@ body {
 .leader {
   position:absolute;
   top: 80px;
-  left: calc(50% - 104px);
-  font-size: 48px;
+  left: calc(50% - 80px);
+  font-size: 36px;
   color: #FDB515;
   z-index: 10;
   letter-spacing: 2px;
 }
 
 .faces {
-  position: absolute;
+  position: relative;
   top: 80px;
   padding: 5%;
   z-index: 10;
   color: white;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
 }
 
 .face {
   object-position: center;
   object-fit: cover;
-  font-size: 12px;
-  margin: 20px;
-  width: 160px;
-  height: 160px;
+  font-size: 15px;
+  margin: 25 20px;
+  width: 162px;
+  height: 162px;
   border-radius: 80px;
-  border: #FDB515 solid 5px;
+  border: #FDB515 solid 4px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -131,10 +135,10 @@ body {
 
 .name {
   position: relative;
-  top: 160px;
-  left: -15px;
-  width: 180px;
-  font-size: 12px;
+  top: 165px;
+  left: -25px;
+  width: 210px;
+  font-size: 15px;
   letter-spacing: 1.4px;
   padding: 5px;
   background-color: rgba(0,0,0,0.5);
@@ -185,25 +189,25 @@ body {
 
 .description {
   position: absolute;
-  top: -23px;
-  width: 150px;
-  height: 150px;
+  top: -28px;
+  width: 154px;
+  height: 154px;
   border-radius: 75px;
   background-color: rgba(0,0,0,0.8);
   font-size: 18px;
 }
 
 .me {
-  position: absolute;
+  position: relative;
   margin:  0 auto;
   text-align: center;
-  left: -5px;
-  top: 25px;
+  left: -27.5px;
+  top: 21px;
   display:  inline-block;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 200;
   line-height: 18px;
-  width: 160px;
+  width: 210px;
 }
 
 .circle-hover {

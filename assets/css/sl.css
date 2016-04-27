@@ -17,14 +17,15 @@ nav{
   left: 0;
   top: 0;
   text-align: center;
-  background-color: #003262;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 10;
 }
 
 .logo {
+  position: relative;
+  top: 2px;
   display: inline-block;
-  width: 80px;
+  width: 75px;
   height: auto;
   margin: 0 20px;
 }
@@ -41,14 +42,14 @@ nav{
   color: #FDB515;
   letter-spacing: 2px;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .tab {
   margin: 0 20px;
   display: inline-block;
   position: relative;
-  top: -18px;
+  top: -16.5px;
   color: #FDB515;
 }
 

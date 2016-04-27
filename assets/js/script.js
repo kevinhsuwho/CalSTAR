@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
 $(".element").typed({
-  strings: ["CALSTAR"],
-  typeSpeed: 350,
-  startDelay: 1000,
+  strings: ["C A L S T A R"],
+  typeSpeed: 100,
+  startDelay: 600,
   showCursor: false,
   callback: showText,
 });
@@ -15,8 +15,8 @@ function showText() {
 
 $(".text2").typed({
   strings: ["3... 2... 1... LIFTOFF!"],
-  typeSpeed: 250,
-  startDelay: 3000,
+  typeSpeed: 200,
+  startDelay: 1200,
   showCursor: false,
 });
 
