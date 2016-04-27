@@ -48,7 +48,7 @@ nav{
   margin: 0 20px;
   display: inline-block;
   position: relative;
-  top: -20px;
+  top: -18px;
   color: #FDB515;
 }
 
@@ -64,7 +64,7 @@ nav{
 
 .tab:not(#tab2):hover {
   transform:scale(1.1);
-  transition: 50ms;
+  transition: 200ms;
   font-weight: bold;
   cursor: pointer;
 }
@@ -93,14 +93,12 @@ body {
 
 .leader {
   position:absolute;
-  top: 90px;
-  left: calc(50% - 55px);
-  font-size: 24px;
+  top: 80px;
+  left: calc(50% - 104px);
+  font-size: 48px;
   color: #FDB515;
   z-index: 10;
   letter-spacing: 2px;
-  font-weight: bolder;
-  text-decoration: underline;
 }
 
 .faces {
@@ -186,7 +184,7 @@ body {
 }
 
 .description {
-  position: relative;
+  position: absolute;
   top: -23px;
   width: 150px;
   height: 150px;
@@ -196,14 +194,19 @@ body {
 }
 
 .me {
-  position: relative;
-  top: -125px;
+  position: absolute;
+  margin:  0 auto;
+  text-align: center;
+  left: -5px;
+  top: 25px;
+  display:  inline-block;
   font-size: 12px;
   font-weight: 200;
   line-height: 18px;
+  width: 160px;
 }
 
-.face .circle:hover {
+.circle-hover {
   opacity:1;
-  transition: 100ms;
+  transition: 500ms;
 }

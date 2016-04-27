@@ -48,7 +48,7 @@ nav{
   margin: 0 20px;
   display: inline-block;
   position: relative;
-  top: -20px;
+  top: -18px;
   color: #FDB515;
 }
 
@@ -59,7 +59,7 @@ nav{
 
 .tab:hover {
   transform: scale(1.1);
-  transition: 50ms;
+  transition: 200ms;
   font-weight: bold;
   cursor: pointer;
 }
@@ -88,7 +88,7 @@ body {
 .picture-maintext {
   position: absolute;
   top: calc(50% - 75px);
-  left: calc(50% - 105px);
+  left: calc(50% - 120px);
   color: white;
   font-size: 30px;
   float: left;
@@ -100,7 +100,7 @@ body {
 
 .picture-text1 {
   padding-bottom: 40px;
-  font-weight: 600;
+  font-weight: normal;
   letter-spacing: 15px;
   font-size: 30px;
 }
@@ -109,9 +109,11 @@ body {
   color: #FDB515;
   font-size: 18px;
   letter-spacing: 5px;
+  display: none;
 }
 
 .picture-text3 {
   font-weight: 400;
   font-size: 36px;
+  display: none;
 }
