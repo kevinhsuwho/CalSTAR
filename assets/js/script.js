@@ -18,7 +18,12 @@ $(".text2").typed({
   typeSpeed: 200,
   startDelay: 1200,
   showCursor: false,
+  callback: showPhoto,
 });
+
+function showPhoto() {
+$(".team").fadeIn();
+};
 
 $(".face").hover(function() {
     $(this).find(".circle").addClass("circle-hover");

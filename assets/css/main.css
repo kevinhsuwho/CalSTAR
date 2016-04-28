@@ -101,19 +101,19 @@ body {
 .picture-text1 {
   padding-bottom: 40px;
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .picture-text2 {
   color: #FDB515;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 5px;
   display: none;
 }
 
 .picture-text3 {
   font-weight: 400;
-  font-size: 36px;
+  font-size: 35px;
   display: none;
   letter-spacing: 2px;
 }

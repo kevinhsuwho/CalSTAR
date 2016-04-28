@@ -76,7 +76,9 @@ body {
 
 .text-container {
   position: absolute;
+  display: inline-block;
   text-align: center;
+  margin: 0 auto;
   width: 100%;
   height: 100%;
   background: url("../images/sf.jpg");
@@ -99,7 +101,8 @@ body {
 
 .maintext {
   position: relative;
-  margin: 20px 15% auto;
+  max-width: 960px;
+  margin: 0 auto;
   font-size: 15px;
   color: #FFFFFF;
   margin-top: 125px;
@@ -115,5 +118,20 @@ body {
   color: #FDB515;
   letter-spacing: 2px;
   font-weight: bolder;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.team {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 30%;
+  border: #FDB515 solid 4px;
+  background: url("../images/teamlaunch.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  z-index: 9;
+  text-align: center;
+  display: none;
 }
