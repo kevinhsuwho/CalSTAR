@@ -17,7 +17,7 @@ nav{
   left: 0;
   top: 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 
@@ -97,7 +97,7 @@ body {
 .overlay {
   background-color: rgba(0,0,0,0.9);
   position: absolute;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -110,7 +110,7 @@ body {
   color: #FDB515;
   z-index: 9;
   margin-bottom: 20px;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.1);
 }
 
 .speel {
@@ -120,6 +120,12 @@ body {
   letter-spacing: 1.4px;
   z-index: 9;
   margin-bottom: 50px;
+  display: none;
+}
+
+b {
+  color: #FDB515;
+  font-weight: 500;
 }
 
 a {
@@ -132,6 +138,7 @@ a {
   width: 40px;
   height: 40px;
   margin-right: 20px;
+  display: none;
 }
 
 #email {
@@ -148,6 +155,7 @@ a {
   vertical-align: middle;
   clear: both;
   margin-bottom: 10px;
+  display: none;
 }
 
 .icon:hover {

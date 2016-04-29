@@ -17,7 +17,7 @@ nav{
   left: 0;
   top: 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .overlay {
   position: absolute;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -103,6 +103,7 @@ body {
   position: relative;
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 50px;
   font-size: 15px;
   color: #FFFFFF;
   margin-top: 125px;
@@ -122,11 +123,16 @@ body {
   margin-bottom: 10px;
 }
 
+b {
+  color: #FDB515;
+  font-weight: 400;
+}
+
 .team {
   position: relative;
   margin: 0 auto;
   width: 100%;
-  height: 30%;
+  height: 35%;
   border: #FDB515 solid 4px;
   background: url("../images/teamlaunch.jpg");
   background-size: cover;

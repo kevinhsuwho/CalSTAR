@@ -22,7 +22,35 @@ $(".text2").typed({
 });
 
 function showPhoto() {
-$(".team").fadeIn();
+  $(".team").fadeIn();
+};
+
+$(".leader").typed({
+  strings: ["LEADERS"],
+  typeSpeed: 200,
+  startDelay: 1200,
+  showCursor: false,
+});
+
+$(".year").typed({
+  strings: ["2016"],
+  typeSpeed: 200,
+  startDelay: 1200,
+  showCursor: false,
+});
+
+$(".interest").typed({
+  strings: ["Interested in CalSTAR?"],
+  typeSpeed: 125,
+  startDelay: 800,
+  showCursor: false,
+  callback: showContact,
+});
+
+function showContact() {
+  $(".speel").fadeIn();
+  $(".icontext").fadeIn();
+  $(".icon").fadeIn();
 };
 
 $(".face").hover(function() {
