@@ -83,6 +83,7 @@ body {
   background: url("../images/mountain.jpg");
   background-size: cover;
   background-position: center;
+  overflow-x: hidden; 
 }
 
 .overlay {
@@ -106,6 +107,7 @@ body {
 
 .faces {
   position: relative;
+  max-width: 960px;
   top: 70px;
   padding: 5%;
   z-index: 10;

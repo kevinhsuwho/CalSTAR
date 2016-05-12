@@ -90,6 +90,7 @@ body {
   background: url("../images/space.jpg");
   background-size: cover;
   background-position: top right;
+  overflow-x: hidden; 
 }
 
 .overlay {

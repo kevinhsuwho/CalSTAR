@@ -85,12 +85,13 @@ body {
   background: url("../images/color.jpg");
   background-size: cover;
   background-position: center bottom;
+  overflow-x: hidden; 
 }
 
 .text-container {
   position: relative;
   max-width: 960px;
-  margin: 0 30px auto;
+  margin: 0 100px auto;
   top: 20%;
   display: inline-block;
   text-align: center;
@@ -121,9 +122,10 @@ body {
   position: relative;
   letter-spacing: 1.4px;
   z-index: 9;
-  margin: 0 60px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   display: none;
+  padding-bottom: 50px;
+  border-bottom: #FDB515 2px solid;
 }
 
 b {
