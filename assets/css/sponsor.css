@@ -101,6 +101,52 @@ body {
   z-index: 5;
 }
 
+.titles {
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 99.36px);
+  font-size: 36px;
+  color: #FDB515;
+  z-index: 10;
+  letter-spacing: 2px;
+}
+
+.want {
+  position: absolute;
+  font-size: 15px;
+  z-index: 10;
+  color: #FFFFFF;
+  font-weight: lighter;
+  top: 160px;
+  padding: 0 100px;
+}
+
+.sponsor1 img {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 400px;
+  height: auto;
+  z-index: 10;
+  transition: 300ms;
+}
+
+.description {
+  position: absolute;
+  text-align: left;
+  top: 300px;
+  left: 550px;
+  margin-right: 100px;
+  font-size: 15px;
+  z-index: 10;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+b {
+  color: #FDB515;
+}
+
 .ocf {
   position: absolute;
   bottom: 0px;

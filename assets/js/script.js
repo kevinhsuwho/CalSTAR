@@ -26,6 +26,14 @@ function showPhoto() {
   $(".team").fadeIn();
 };
 
+$(".titlep").typed({
+  strings: ["PROJECTS"],
+  typeSpeed: 100,
+  startDelay: 600,
+  showCursor: false,
+  callback: showContact,
+});
+
 $(".leader").typed({
   strings: ["LEADERS"],
   typeSpeed: 150,
@@ -38,6 +46,14 @@ $(".year").typed({
   typeSpeed: 150,
   startDelay: 600,
   showCursor: false,
+});
+
+$(".titles").typed({
+  strings: ["SPONSORS"],
+  typeSpeed: 100,
+  startDelay: 600,
+  showCursor: false,
+  callback: showContact,
 });
 
 $(".interest").typed({
