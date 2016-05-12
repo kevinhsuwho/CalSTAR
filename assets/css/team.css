@@ -23,11 +23,11 @@ nav{
 
 .logo {
   position: relative;
-  top: 2px;
-  display: inline-block;
   width: 75px;
+  float: left;
   height: auto;
-  margin: 0 20px;
+  margin-left: -20px;
+  top: 0px;
 }
 
 .star {
@@ -37,19 +37,21 @@ nav{
 }
 
 .nav-item {
-  display: inline-block;
+  float: right;
+  position: relative;
   vertical-align: middle;
   color: #FDB515;
+  top: 13px;
   letter-spacing: 2px;
   font-weight: lighter;
   font-size: 15px;
+  margin-right: -30px;
 }
 
 .tab {
-  margin: 0 20px;
+  margin: 0 15px;
   display: inline-block;
   position: relative;
-  top: -16.5px;
   color: #FDB515;
 }
 
@@ -95,7 +97,7 @@ body {
 .leader {
   position:absolute;
   top: 80px;
-  left: calc(50% - 80px);
+  left: calc(50% - 79.72px);
   font-size: 36px;
   color: #FDB515;
   z-index: 10;
@@ -186,35 +188,35 @@ body {
 }
 
 .face {
-	animation: fdsseq 2.3s forwards;
+	animation: fdsseq 1.6s forwards;
 }
 
 .face:nth-child(1) {
-	animation-delay: 2.7s;
+	animation-delay: 1.8s;
 }
 
 .face:nth-child(2) {
-	animation-delay: 3.1s;
+	animation-delay: 2s;
 }
 
 .face:nth-child(3) {
-	animation-delay: 3.5s;
+	animation-delay: 2.2s;
 }
 
 .face:nth-child(4) {
-	animation-delay: 3.9s;
+	animation-delay: 2.4s;
 }
 
 .face:nth-child(5) {
-	animation-delay: 4.3s;
+	animation-delay: 2.6s;
 }
 
 .face:nth-child(6) {
-	animation-delay: 4.7s;
+	animation-delay: 2.8s;
 }
 
 .face:nth-child(7) {
-	animation-delay: 5.1s;
+	animation-delay: 3.0s;
 }
 
 .circle {
@@ -249,4 +251,16 @@ body {
 .circle-hover {
   opacity:1;
   transition: 500ms;
+}
+
+
+.ocf {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  float: right;
+  font-size: 8px;
+  font-weight: 100;
+  color: #FFFFFF;
+  padding: 10px;
 }

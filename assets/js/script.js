@@ -15,34 +15,35 @@ function showText() {
 
 $(".text2").typed({
   strings: ["3... 2... 1... LIFTOFF!"],
-  typeSpeed: 200,
-  startDelay: 1200,
+  typeSpeed: 150,
+  startDelay: 600,
   showCursor: false,
   callback: showPhoto,
 });
 
 function showPhoto() {
+  $(".text2").fadeOut();
   $(".team").fadeIn();
 };
 
 $(".leader").typed({
   strings: ["LEADERS"],
-  typeSpeed: 200,
-  startDelay: 1200,
+  typeSpeed: 150,
+  startDelay: 800,
   showCursor: false,
 });
 
 $(".year").typed({
   strings: ["2016"],
-  typeSpeed: 200,
-  startDelay: 1200,
+  typeSpeed: 150,
+  startDelay: 600,
   showCursor: false,
 });
 
 $(".interest").typed({
   strings: ["Interested in CalSTAR?"],
-  typeSpeed: 125,
-  startDelay: 800,
+  typeSpeed: 100,
+  startDelay: 600,
   showCursor: false,
   callback: showContact,
 });
