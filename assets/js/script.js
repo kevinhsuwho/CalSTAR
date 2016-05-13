@@ -53,8 +53,14 @@ $(".titles").typed({
   typeSpeed: 100,
   startDelay: 600,
   showCursor: false,
-  callback: showContact,
+  callback: showSponsor,
 });
+
+function showSponsor() {
+  $(".want").fadeIn();
+  $(".description").fadeIn();
+  $(".sponsor1 img").fadeIn();
+};
 
 $(".interest").typed({
   strings: ["Interested in CalSTAR?"],
