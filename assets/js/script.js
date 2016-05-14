@@ -46,7 +46,12 @@ $(".year").typed({
   typeSpeed: 150,
   startDelay: 600,
   showCursor: false,
+  callback: showDoc,
 });
+
+function showDoc() {
+  $(".doc").fadeIn();
+};
 
 $(".titles").typed({
   strings: ["SPONSORS"],

@@ -83,7 +83,7 @@ body {
   background: url("../images/mountain.jpg");
   background-size: cover;
   background-position: center;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .overlay {
@@ -97,7 +97,7 @@ body {
 
 .leader {
   position:absolute;
-  top: 80px;
+  top: 100px;
   left: calc(50% - 79.72px);
   font-size: 36px;
   color: #FDB515;
@@ -108,8 +108,8 @@ body {
 .faces {
   position: relative;
   max-width: 960px;
-  top: 70px;
-  padding: 5%;
+  top: 90px;
+  padding: 60px 0;
   z-index: 10;
   color: white;
   margin: 0 auto;

@@ -92,7 +92,7 @@ body {
   position: relative;
   max-width: 960px;
   margin: 0 100px auto;
-  top: 20%;
+  top: 100px;
   display: inline-block;
   text-align: center;
 }
@@ -112,7 +112,7 @@ body {
   position: relative;
   color: #FDB515;
   z-index: 9;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background: rgba(0,0,0,0.1);
 }
 
