@@ -140,8 +140,25 @@ body {
   z-index: 9;
 }
 
-@@media only screen and (max-device-width: 768px) {
-  nav {
-    height: 56px;
+@@media (max-width: 777px) {
+  .nav-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
+
+  .tab{
+    float: left;
+  }
+
+  .tab a{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+
 }
