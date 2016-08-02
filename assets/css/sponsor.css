@@ -129,7 +129,7 @@ body {
   margin: 0 100px;
   padding-bottom: 50px;
   border-bottom: #FDB515 2px solid;
-  display: none;
+  /*display: none;*/
 }
 
 .sponsor1 img {
@@ -143,7 +143,7 @@ body {
   margin-bottom: 20px;
   object-fit: cover;
   object-position: top;
-  display: none;
+  /*display: none;*/
 }
 
 .description {
@@ -156,7 +156,7 @@ body {
   z-index: 10;
   color: #FFFFFF;
   font-weight: lighter;
-  display: none;
+  /*display: none;*/
 }
 
 b {
