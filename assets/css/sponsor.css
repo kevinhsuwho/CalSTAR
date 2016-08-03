@@ -1,11 +1,13 @@
-@font-face {
+/*@font-face {
   font-family: 'moon';
-  src: url('../fonts/Moon Light.otf');
-}
+  src: url('http://stars.berkeley.edu/assets/fonts/Moon%20Light.otf');
+}*/
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
 * {
   box-sizing: border-box;
-  font-family: 'moon';
+  /*font-family: 'moon';*/
+  font-family: 'News Cycle';
 }
 
 nav{
@@ -95,6 +97,8 @@ body {
   background-color: rgba(0,0,0,0.9);
   position: absolute;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);  
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -102,7 +106,7 @@ body {
 
 .text-container {
   max-width: 960px;
-  font-size: 15px;
+  font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 2px;
   text-align: left;
@@ -112,8 +116,8 @@ body {
 .titles {
   position: relative;
   top: 100px;
-  left: calc(50% - 99.36px);
-  font-size: 36px;
+  left: calc(50% - 95.65px);
+  font-size: 40px;
   color: #FDB515;
   z-index: 10;
   letter-spacing: 2px;
@@ -121,10 +125,10 @@ body {
 
 .want {
   position: relative;
-  font-size: 15px;
+  font-size: 18px;
   z-index: 10;
   color: #FFFFFF;
-  font-weight: lighter;
+  letter-spacing: 1px;
   top: 140px;
   margin: 0 100px;
   padding-bottom: 50px;
@@ -152,10 +156,10 @@ body {
   text-align: left;
   top: 180px;
   padding: 0 100px;
-  font-size: 15px;
+  font-size: 18px;
   z-index: 10;
   color: #FFFFFF;
-  font-weight: lighter;
+  letter-spacing: 1px;
   /*display: none;*/
 }
 

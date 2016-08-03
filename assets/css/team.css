@@ -1,11 +1,13 @@
-@font-face {
+/*@font-face {
   font-family: 'moon';
-  src: url('../fonts/Moon Light.otf');
-}
+  src: url('http://stars.berkeley.edu/assets/fonts/Moon%20Light.otf');
+}*/
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
 * {
   box-sizing: border-box;
-  font-family: 'moon';
+  /*font-family: 'moon';*/
+  font-family: 'News Cycle';
 }
 
 nav{
@@ -90,6 +92,8 @@ body {
   background-color: rgba(0,0,0,0.9);
   position: absolute;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -98,8 +102,8 @@ body {
 .leader {
   position:absolute;
   top: 100px;
-  left: calc(50% - 79.72px);
-  font-size: 36px;
+  left: calc(50% - 80.97px);
+  font-size: 40px;
   color: #FDB515;
   z-index: 10;
   letter-spacing: 2px;
@@ -120,8 +124,8 @@ body {
 .face {
   object-position: center;
   object-fit: cover;
-  font-size: 15px;
-  margin: 25 20px;
+  font-size: 20px;
+  margin: 35 20px;
   width: 162px;
   height: 162px;
   border-radius: 80px;
@@ -140,11 +144,11 @@ body {
 
 .name {
   position: relative;
-  top: 165px;
+  top: 160px;
   left: -25px;
   width: 206px;
-  font-size: 15px;
-  letter-spacing: 1.4px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
   padding: 5px;
   font-weight: bold;
 }
@@ -229,12 +233,12 @@ body {
 
 .description {
   position: absolute;
-  top: -28px;
+  top: -43px;
   width: 154px;
   height: 154px;
   border-radius: 75px;
   background-color: rgba(0,0,0,0.8);
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .me {
@@ -242,9 +246,9 @@ body {
   margin:  0 auto;
   text-align: center;
   left: -27.5px;
-  top: 21px;
+  top: 10px;
   display:  inline-block;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 200;
   line-height: 18px;
   width: 210px;

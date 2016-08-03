@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 $(".element").typed({
-  strings: ["C A L S T A R"],
+  strings: ["CALSTAR"],
   typeSpeed: 100,
   startDelay: 600,
   showCursor: false,

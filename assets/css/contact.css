@@ -1,11 +1,13 @@
-@font-face {
+/*@font-face {
   font-family: 'moon';
-  src: url('../fonts/Moon Light.otf');
-}
+  src: url('http://stars.berkeley.edu/assets/fonts/Moon%20Light.otf');
+}*/
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
 * {
   box-sizing: border-box;
-  font-family: 'moon';
+  /*font-family: 'moon';*/
+  font-family: 'News Cycle';
 }
 
 nav{
@@ -101,13 +103,15 @@ body {
   background-color: rgba(0,0,0,0.9);
   position: absolute;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
   width: 100%;
   height: 100%;
   z-index: 5;
 }
 
 .interest {
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 2px;
   position: relative;
   color: #FDB515;
@@ -118,14 +122,19 @@ body {
 
 .speel {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 18px;
   position: relative;
-  letter-spacing: 1.4px;
+  letter-spacing: 1px;
   z-index: 9;
   margin-bottom: 40px;
   /*display: none;*/
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   border-bottom: #FDB515 2px solid;
+}
+
+.signup:hover {
+  transform: scale(1.2);
+  transition: 300ms;
 }
 
 b {
@@ -147,14 +156,14 @@ a {
 }
 
 #email {
-  margin-right: 70px;
+  margin-right: 55px;
 }
 
 .icontext {
   position: relative;
   margin: 0 auto;
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 2px;
   z-index: 9;
   vertical-align: middle;

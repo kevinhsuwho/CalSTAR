@@ -1,11 +1,13 @@
-@font-face {
+/*@font-face {
   font-family: 'moon';
-  src: url('../fonts/Moon Light.otf');
-}
+  src: url('http://stars.berkeley.edu/assets/fonts/Moon%20Light.otf');
+}*/
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
 
 * {
   box-sizing: border-box;
-  font-family: 'moon';
+  /*font-family: 'moon';*/
+  font-family: 'News Cycle';
 }
 
 nav{
@@ -73,7 +75,10 @@ body {
 
 .picture-overlay {
   position: absolute;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);    width: 100%;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  width: 100%;
   height: 100%;
   z-index: 5;
 }
@@ -90,8 +95,8 @@ body {
 
 .picture-maintext {
   position: absolute;
-  top: calc(50% - 75px);
-  left: calc(50% - 140px);
+  top: calc(50% - 25px);
+  left: calc(50% - 80px);
   color: white;
   font-size: 30px;
   float: left;
@@ -102,8 +107,9 @@ body {
 
 .picture-text1 {
   padding-bottom: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 7px;
   font-size: 35px;
+  line-height: 10px;
 }
 
 .picture-text2 {
@@ -111,6 +117,7 @@ body {
   font-size: 20px;
   letter-spacing: 5px;
   display: none;
+  line-height: 25px;
 }
 
 .picture-text3 {
@@ -118,6 +125,7 @@ body {
   font-size: 35px;
   display: none;
   letter-spacing: 2px;
+  line-height: 40px;
 }
 
 .ocf {
