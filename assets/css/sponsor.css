@@ -129,9 +129,9 @@ body {
   z-index: 10;
   color: #FFFFFF;
   letter-spacing: 1px;
-  top: 140px;
+  top: 120px;
   margin: 0 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   border-bottom: #FDB515 2px solid;
   /*display: none;*/
   text-align: left;
@@ -142,12 +142,42 @@ body {
 
 .sponsor1 img {
   position: relative;
-  top: 180px;
+  top: 150px;
+  left: calc(50% - 150px);
+  width: 275px;
+  height: 120px;
+  z-index: 5;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: top;
+  /*display: none;*/
+}
+
+.sponsor2 img {
+  position: relative;
+  top: 150px;
   left: calc(50% - 250px);
   width: 500px;
   height: 50px;
-  z-index: 10;
+  z-index: 5;
   margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  object-position: top;
+  /*display: none;*/
+}
+
+.sponsor3 img {
+  position: relative;
+  top: 150px;
+  left: calc(50% - 250px);
+  width: 500px;
+  height: 50px;
+  z-index: 5;
+  margin: 0 auto;
+  margin-top: 40px;
   margin-bottom: 20px;
   object-fit: cover;
   object-position: top;
@@ -158,16 +188,33 @@ body {
   display: inline-block;
   position: relative;
   text-align: left;
-  top: 180px;
+  top: 150px;
   padding: 0 100px;
   font-size: 18px;
-  z-index: 10;
+  z-index: 5;
   color: #FFFFFF;
   letter-spacing: 1px;
   /*display: none;*/
   text-align: left;
   font-weight: lighter;
   line-height: 20px;
+}
+
+.description3 {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 150px;
+  padding: 0 100px;
+  font-size: 18px;
+  z-index: 5;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  /*display: none;*/
+  text-align: left;
+  font-weight: lighter;
+  line-height: 20px;
+  padding-bottom: 100px;
 }
 
 b {
