@@ -14,12 +14,12 @@ nav{
   position: fixed;
   width: 100%;
   margin: 0 auto;
-  padding: 5 40px;
+  padding: 5 60px;
   border-bottom: thin solid black;
   left: 0;
   top: 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 10;
 }
 
