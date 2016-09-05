@@ -19,7 +19,7 @@ nav{
   left: 0;
   top: 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.75);
   z-index: 15;
 }
 
@@ -230,7 +230,7 @@ body {
   text-align: left;
   font-weight: lighter;
   line-height: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 b {
@@ -239,8 +239,8 @@ b {
 }
 
 .ocf {
-  position: absolute;
-  bottom: 0px;
+  position: relative;
+  bottom: -200px;
   right: 0px;
   float: right;
   font-size: 8px;

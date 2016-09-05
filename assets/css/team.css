@@ -19,8 +19,8 @@ nav{
   left: 0;
   top: 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 30;
 }
 
 .logo {
@@ -100,9 +100,8 @@ body {
 }
 
 .leader {
-  position:absolute;
+  position: relative;
   top: 100px;
-  left: calc(50% - 80.97px);
   font-size: 40px;
   color: #FDB515;
   z-index: 10;
@@ -112,7 +111,7 @@ body {
 .faces {
   position: relative;
   max-width: 960px;
-  top: 90px;
+  top: 25px;
   padding: 60px 0;
   z-index: 10;
   color: white;
@@ -133,7 +132,7 @@ body {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  opacity: 0
+  opacity: 0;
 }
 
 #f1 {
@@ -172,19 +171,31 @@ body {
 }
 
 #f5 {
-  background: url("../images/kegan.jpg");
+  background: url("../images/aaron.png");
   background-size: cover;
   background-position: center;
 }
 
 #f6 {
-  background: url("../images/henry.jpg");
+  background: url("../images/jacob.png");
   background-size: cover;
   background-position: center;
 }
 
 #f7 {
   background: url("../images/jia.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#f8 {
+  background: url("../images/grant.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#f9 {
+  background: url("../images/ryan.png");
   background-size: cover;
   background-position: center;
 }
@@ -225,6 +236,10 @@ body {
 	animation-delay: 2s;
 }
 
+.face:nth-child(8) {
+	animation-delay: 2.2s;
+}
+
 .circle {
   position: relative;
   opacity: 0;
@@ -245,7 +260,7 @@ body {
   position: relative;
   margin:  0 auto;
   text-align: center;
-  left: -27.5px;
+  left: -26px;
   top: 10px;
   display:  inline-block;
   font-size: 13px;
@@ -259,14 +274,59 @@ body {
   transition: 500ms;
 }
 
+.role {
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.leads {
+  position: relative;
+  top: -25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin: 0 auto;
+  color: #FDB515;
+  z-index: 10;
+  letter-spacing: 3px;
+  border-bottom: #FDB515 2px solid;
+  max-width: 760px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.teamlead {
+  position: relative;
+  top: -25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin: 0 auto;
+  color: #FDB515;
+  z-index: 10;
+  letter-spacing: 3px;
+  max-width: 760px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.faces2 {
+  position: relative;
+  max-width: 960px;
+  top: -40px;
+  padding: 0px 0px;
+  z-index: 10;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: -50px;
+  display: block;
+  text-align: center;
+}
 
 .ocf {
-  position: absolute;
-  bottom: 0px;
+  position: relative;
+  bottom: -100px;
   right: 0px;
   float: right;
   font-size: 8px;
-  font-weight: 100;
   color: #FFFFFF;
   padding: 10px;
 }
