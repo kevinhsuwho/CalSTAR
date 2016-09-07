@@ -104,7 +104,6 @@ body {
   background-size: cover;
   background-position: center bottom;
   z-index:1;
-  overflow-x: hidden;
 }
 
 .picture-maintext {
@@ -160,9 +159,6 @@ body {
   width:20px;
   height: 20px;
   z-index: 9;
-}
-
-@media screen and (min-width: 980px) /* Desktop */ {
 }
 
 @media screen  and (max-width: 768px) /* Tablet */ {
@@ -252,7 +248,32 @@ body {
   .tab:hover {
     transform:scale(1);
   }
+}
 
+@media screen and (max-width: 680px) {
+
+  .picture-text1 {
+    padding-bottom: 25px;
+    padding-right: 180px;
+    letter-spacing: 7px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .picture-text2 {
+    color: #FDB515;
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 25px;
+  }
+
+  .picture-text3 {
+    font-weight: 400;
+    font-size: 25px;
+    display: none;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
@@ -307,4 +328,36 @@ body {
     height: 10px;
     z-index: 9;
   }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+
+  .picture-maintext {
+    left: calc(50% - 80px);
+  }
+
+  .picture-text1 {
+    padding-bottom: 25px;
+    padding-right: 100px;
+    letter-spacing: 7px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .picture-text2 {
+    color: #FDB515;
+    font-size: 18px;
+    letter-spacing: 4px;
+    display: none;
+    line-height: 25px;
+  }
+
+  .picture-text3 {
+    font-weight: 400;
+    font-size: 20px;
+    display: none;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+  }
+
 }

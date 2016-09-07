@@ -84,7 +84,7 @@ body {
 }
 
 .main-container {
-  position: absolute;
+  position: fixed;
   margin: 0 auto;
   text-align: center;
   width: 100%;
@@ -97,7 +97,7 @@ body {
 
 .overlay {
   background-color: rgba(0,0,0,0.9);
-  position: absolute;
+  position: fixed;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
   width: 100%;
@@ -248,6 +248,7 @@ body {
   }
 
   .ocf {
+    position: relative;
     float: right;
     font-size: 0.01in;
     font-weight: 100;
@@ -256,13 +257,15 @@ body {
     line-height: 7px;
   }
 
-  .ocfpic {
-    position:relative;
-    margin-right: 2px;
-    bottom: -2px;
-    width: 10px;
-    height: 10px;
-    z-index: 9;
-  }
 
+  .doc {
+    position: relative;
+    margin: 30px 0px;
+    width: 250px;
+    height: 400px;
+    margin-top: 190px;
+    text-align: center;
+    left: calc(50% - 125px);
+    display: block;
+  }
 }

@@ -308,7 +308,7 @@ a b:hover {
 
   .ocf {
     float: right;
-    font-size: 0.01in;
+    font-size: 4px;
     font-weight: 100;
     color: #FFFFFF;
     padding: 5px;
@@ -325,7 +325,7 @@ a b:hover {
   }
 
   .text-container {
-    margin: 0 30px;
+    margin: 0 20px;
   }
 
   .interest {
@@ -333,8 +333,8 @@ a b:hover {
   }
 
   .speel{
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 15px;
   }
 
   .icon {
@@ -344,13 +344,18 @@ a b:hover {
   }
 
   #email {
-    margin-right: 55px;
+    margin-right: 40px;
   }
 
   .icontext {
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
     text-align: center;
+  }
+
+  .icontext b {
+    font-size: 13px;
   }
 
 }

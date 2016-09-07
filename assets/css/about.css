@@ -93,7 +93,7 @@ body {
 }
 
 .text-container {
-  position: absolute;
+  position: relative;
   display: inline-block;
   text-align: center;
   margin: 0 auto;
@@ -304,6 +304,7 @@ b {
   }
 
   .ocf {
+    position: relative;
     float: right;
     font-size: 0.01in;
     font-weight: 100;
@@ -312,19 +313,10 @@ b {
     line-height: 7px;
   }
 
-  .ocfpic {
-    position:relative;
-    margin-right: 2px;
-    bottom: -2px;
-    width: 10px;
-    height: 10px;
-    z-index: 9;
-  }
-
   .maintext {
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
-    line-height: 18px;
+    line-height: 16px;
     font-weight: 500;
   }
 
@@ -332,12 +324,16 @@ b {
     width: 100%;
     height: 20%;
   }
+
+  .maintext {
+    margin-bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
 
   .maintext {
-    padding: 0 50px;
+    padding: 0 40px;
   }
 
   .team {
