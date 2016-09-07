@@ -258,10 +258,16 @@ body {
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
+
   .picture-maintext {
     top: calc(50% - 70px);
     left: calc(50% - 110px);
   }
+
+  .logo {
+    display: absolute;
+  }
+
   .picture-text1 {
     padding-bottom: 25px;
     padding-right: 100px;
@@ -284,5 +290,23 @@ body {
     display: none;
     letter-spacing: 1.2px;
     line-height: 30px;
+  }
+
+  .ocf {
+    float: right;
+    font-size: 0.01in;
+    font-weight: 100;
+    color: #FFFFFF;
+    padding: 5px;
+    line-height: 7px;
+  }
+
+  .ocfpic {
+    position:relative;
+    margin-right: 2px;
+    bottom: -2px;
+    width: 10px;
+    height: 10px;
+    z-index: 9;
   }
 }
