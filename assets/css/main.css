@@ -73,6 +73,7 @@ ul {
 .tab a{
   text-decoration: none;
   color: #FDB515;
+  cursor: pointer;
 }
 
 .tab:hover {
@@ -170,7 +171,6 @@ body {
     width: 100%;
     height: 50px;
     background: rgba(0, 0, 0, 0.75);
-    cursor: pointer;
     top: 0;
     border-bottom: 1px solid #fdb515;
   }
@@ -190,6 +190,7 @@ body {
     width: auto;
     right: 10px;
     top: 15px;
+    cursor: pointer;
   }
 
   nav {
@@ -208,6 +209,10 @@ body {
     margin: 0;
   }
 
+  .tab{
+    margin-left: 0;
+  }
+
   ul{
     width: 100%;
     margin: 0;
@@ -217,12 +222,13 @@ body {
   header nav ul{
     overflow: hidden;
     width: 100%;
-    //height: 0;
+    height: 0;
     background: rgba(0, 0, 0, 0.9);
   }
 
   header nav ul.open{
     height: auto;
+    transition: 200ms ease-in;
   }
 
   header nav ul li{
@@ -231,13 +237,12 @@ body {
     width: 100%;
     margin: 0;
     padding-left: 0;
-
   }
 
   header nav ul li a{
     color: #fbd515;
     padding: 6.5px;
-    padding-left: 0px;
+    padding-left: 20px;
     border-bottom: 1px solid #fdb515;
     display: block;
     margin: 0;
@@ -253,5 +258,31 @@ body {
 }
 
 @media screen and (max-width: 500px) /* Mobile */ {
+  .picture-maintext {
+    top: calc(50% - 70px);
+    left: calc(50% - 110px);
+  }
+  .picture-text1 {
+    padding-bottom: 25px;
+    padding-right: 100px;
+    letter-spacing: 7px;
+    font-size: 35px;
+    line-height: 40px;
+  }
 
+  .picture-text2 {
+    color: #FDB515;
+    font-size: 18px;
+    letter-spacing: 4px;
+    display: none;
+    line-height: 25px;
+  }
+
+  .picture-text3 {
+    font-weight: 400;
+    font-size: 25px;
+    display: none;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }
 }

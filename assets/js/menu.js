@@ -1,9 +1,9 @@
-$(document).ready(function({}
+$(document).ready(function(){
 
   $(".burger").on("click", function(){
 
-    $("header nav ul").toggleClass("open")
+    $("header nav ul").toggleClass("open");
 
-  })
+  });
 
-))
+});
