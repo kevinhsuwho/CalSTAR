@@ -98,9 +98,9 @@ body {
 .overlay {
   background-color: rgba(0,0,0,0.9);
   position: fixed;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background:-ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
   width: 100%;
   height: 100%;
   z-index: 8;
@@ -116,7 +116,7 @@ body {
   color: #FDB515;
   letter-spacing: 2px;
   z-index: 9;
-  left: calc(50% - 46.635px);
+  left: calc(50% - 109.49px);
 }
 
 .doc {
@@ -124,11 +124,30 @@ body {
   border: #FDB515 solid 5px;
   margin: 0 auto;
   margin-top: 190px;
-  background-color: #FFFFFF;
+  background-image: url("../images/projectproposal.png");
+  background-size: cover;
+  background-position: top;
   width: 350px;
   height: 500px;
   z-index: 9;
   /*display: none;*/
+}
+
+.docoverlay {
+  position: relative;
+  color: #FDB515;
+  font-size: 16px;
+  text-align: center;
+  padding: 12.5 20px;
+  background-color: rgba(0,0,0,1);
+  height: auto;
+  width: 100%;
+  top: -216.5px;
+  line-height: 1.2em;
+}
+
+.docoverlay:active {
+  display: none;
 }
 
 .document {

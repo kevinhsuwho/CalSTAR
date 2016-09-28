@@ -107,9 +107,9 @@ body {
 .overlay {
   background-color: rgba(0,0,0,0.9);
   position: absolute;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
-  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 100%);
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -123,6 +123,27 @@ body {
   color: #FDB515;
   z-index: 10;
   letter-spacing: 2px;
+}
+
+.ursa {
+  position: relative;
+  margin: auto;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #FDB515;
+  border-bottom: #FDB515 2px solid;
+  max-width: 960px;
+  top: 200px;
+  z-index: 9;
+}
+
+.description {
+  position: relative;
+  font-size: 24px;
+  color: #FDB515;
+  top: 220px;
+  z-index: 9;
 }
 
 .ocf {
