@@ -92,31 +92,37 @@ body {
   margin: 0;
 }
 
-.main-container {
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
+.background-container {
   background: url("../images/nebula.jpg");
   background-size: cover;
-  background-position: right center;
-  overflow-x: hidden;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.main-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .main-container:before {
-content: '';
-position: fixed;
-background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
-background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
-background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
-width: 100%;
-height: 100%;
-left: 0;
-top:  0;
-z-index: 1;
+  content: '';
+  position: fixed;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:  0;
+  z-index: 1;
 }
 
 .text-container {
-  max-width: 960px;
   font-size: 18px;
   color: #FFFFFF;
   letter-spacing: 2px;
@@ -127,11 +133,11 @@ z-index: 1;
 .titles {
   position: relative;
   text-align: center;
-  top: 100px;
   font-size: 40px;
   color: #FDB515;
   z-index: 10;
   letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 
 .want {
@@ -140,9 +146,9 @@ z-index: 1;
   z-index: 10;
   color: #FFFFFF;
   letter-spacing: 1px;
-  top: 120px;
   margin: 0 100px;
   padding-bottom: 30px;
+  margin-bottom: 30px;
   border-bottom: #FDB515 2px solid;
   /*display: none;*/
   text-align: left;
@@ -150,61 +156,63 @@ z-index: 1;
   font-weight: lighter;
   line-height: 20px;
 }
-
+.sponsor1 {
+  text-align: center;
+}
 .sponsor1 img {
+  display:inline-block;
   position: relative;
-  top: 150px;
-  left: calc(50% - 150px);
   width: 275px;
   height: 120px;
   z-index: 2;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin:0 auto;
+  text-align: center;
   object-fit: cover;
   object-position: top;
   /*display: none;*/
 }
-
+.sponsor2 {
+  text-align: center;
+  padding: 10px 0px;
+  padding-top: 20px;
+}
 .sponsor2 img {
   position: relative;
-  top: 150px;
-  left: calc(50% - 250px);
+  display:inline-block;
   width: 500px;
-  height: 50px;
+  height: 40px;
   z-index: 2;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  text-align: center;
   object-fit: cover;
   object-position: top;
   /*display: none;*/
 }
-
+.sponsor3 {
+  text-align: center;
+  padding: 10px 0px;
+}
 .sponsor3 img {
   position: relative;
-  top: 130px;
-  left: calc(50% - 200px);
   width: 400px;
-  height: 120px;
+  height: 90px;
   z-index: 2;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: -10px;
+  text-align: center;
   object-fit: cover;
   object-position: top;
   /*display: none;*/
 }
-
+.sponsor4 {
+  text-align: center;
+  padding: 10px 0px;
+}
 .sponsor4 img {
   position: relative;
-  top: 140px;
-  left: calc(50% - 250px);
   width: 500px;
   height: 50px;
   z-index: 2;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 20px;
   object-fit: cover;
   object-position: top;
   /*display: none;*/
@@ -214,8 +222,7 @@ z-index: 1;
   display: inline-block;
   position: relative;
   text-align: left;
-  top: 150px;
-  padding: 0 100px;
+  padding: 15 100px;
   font-size: 18px;
   z-index: 2;
   color: #FFFFFF;
@@ -230,8 +237,7 @@ z-index: 1;
   display: inline-block;
   position: relative;
   text-align: left;
-  top: 150px;
-  padding: 0 100px;
+  padding: 15 100px;
   font-size: 18px;
   z-index: 2;
   color: #FFFFFF;
@@ -240,7 +246,6 @@ z-index: 1;
   text-align: left;
   font-weight: lighter;
   line-height: 20px;
-  padding-bottom: 10px;
 }
 
 b {
@@ -250,8 +255,6 @@ b {
 
 .ocf {
   position: relative;
-  bottom: -200px;
-  right: 0px;
   float: right;
   font-size: 8px;
   font-weight: 100;
