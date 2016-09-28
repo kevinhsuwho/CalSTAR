@@ -585,11 +585,11 @@ body {
 
   .ocf {
     float: right;
-    font-size: 0.01in;
-    font-weight: 100;
+    font-size: 4px;
     color: #FFFFFF;
     padding: 5px;
     line-height: 7px;
+    z-index:-2;
   }
 
   .ocfpic {
