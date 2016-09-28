@@ -27,7 +27,7 @@ nav{
   left: 0;
   top: 0;
   text-align: right;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.9);
   z-index: 10;
   border-bottom: solid #fdb515 1px;
 }
@@ -37,7 +37,7 @@ nav{
 }
 
 .logo {
-  position: relative;
+  position: fixed;
   width: 72.92px;
   float: left;
   height: auto;
