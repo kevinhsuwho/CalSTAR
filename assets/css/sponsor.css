@@ -93,9 +93,9 @@ body {
 }
 
 .background-container {
-  background: url("../images/nebula.jpg");
+  background: url("../images/nebula2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position:right;
   position: fixed;
   top: 0;
   width: 100%;
