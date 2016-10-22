@@ -132,8 +132,7 @@ z-index: 5;
   position: relative;
   color: #FDB515;
   z-index: 9;
-  margin-bottom: 40px;
-  background: rgba(0,0,0,0.1);
+  margin-bottom: 30px;
 }
 
 .speel {
@@ -144,7 +143,7 @@ z-index: 5;
   z-index: 9;
   margin-bottom: 40px;
   /*display: none;*/
-  padding-bottom: 20px;
+  padding-bottom: 35px;
   border-bottom: #FDB515 2px solid;
   font-weight: lighter;
   line-height: 20px;
