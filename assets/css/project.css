@@ -189,13 +189,15 @@ body {
   letter-spacing: 1px;
   color: #FFFFFF;
   float: left;
-  text-align: left;
+  text-align: center;
   height: auto;
   padding: 0 20px;
   margin-top:30px;
   margin-left:30px;
   z-index: 9;
   width: 430px;
+  background-color: rgba(0,0,0,0.6);
+  padding-bottom: 20px;
 }
 
 .ocf {
