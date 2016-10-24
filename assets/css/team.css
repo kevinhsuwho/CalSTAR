@@ -93,9 +93,9 @@ body {
 }
 
 .background-container {
-  background: url("../images/mountain.jpg");
+  background: url("../images/earth.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: left top;
   position: fixed;
   top: 0;
   width: 100%;
