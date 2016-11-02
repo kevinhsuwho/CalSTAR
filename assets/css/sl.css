@@ -122,11 +122,7 @@ body {
 
 .doc {
   position: relative;
-  border: #FDB515 solid 5px;
   margin: 0 auto;
-  background-image: url("../images/projectproposal.png");
-  background-size: cover;
-  background-position: top;
   width: 400px;
   height: 600px;
   z-index: 9;
@@ -139,12 +135,21 @@ body {
   font-size: 20px;
   text-align: center;
   padding: 5 20px;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.75);
   height: auto;
   width: 100%;
   top: -266.5px;
   line-height: 1.2em;
-  border-bottom: #FDB515 5px solid;
+  border: #FDB515 4px solid;
+}
+
+#years {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding: 20 0px;
+  border-bottom: #FDB515 2px solid;
 }
 
 p:hover {
@@ -152,6 +157,28 @@ p:hover {
   transition: 200ms;
   font-weight: bold;
   cursor: pointer;
+}
+
+.msds {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px 25px;
+  border-top: #FDB515 solid 2px;
+  border-bottom: #FDB515 solid 2px;
+}
+
+.docoverlay:nth-child(1) {
+  border-bottom: #FDB515 solid 2px;
+  background-color: rgba(0,0,0,1);
+}
+
+.docoverlay:nth-child(2) {
+  border-top: #FDB515 solid 2px;
+  border-bottom: #FDB515 solid 2px;
+}
+
+.docoverlay:nth-child(3) {
+  border-top: #FDB515 solid 2px;
 }
 
 a {
