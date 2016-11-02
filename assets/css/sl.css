@@ -98,6 +98,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 .main-container:before {
