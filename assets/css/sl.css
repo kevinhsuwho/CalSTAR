@@ -203,9 +203,7 @@ a {
 }
 
 .ocf {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
+  position: relative;
   float: right;
   font-size: 8px;
   font-weight: 100;
