@@ -175,13 +175,11 @@ a b:hover {
   /*display: none;*/
 }
 
-#email {
-  margin-right: 60px;
-}
-
 .icontext {
+  text-align: left;
   position: relative;
   margin: 0 auto;
+  margin-left: 120px;
   color: #FFFFFF;
   font-size: 18px;
   letter-spacing: 2px;
@@ -206,6 +204,12 @@ a b:hover {
   font-weight: 100;
   color: #FFFFFF;
   padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .icontext {
+    margin: 0 auto;
+  }
 }
 
 @media screen  and (max-width: 768px) /* Tablet */ {

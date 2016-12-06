@@ -120,6 +120,9 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding-top: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+  border-bottom: #FDB515 2px solid;
 }
 
 .leader {
@@ -308,7 +311,7 @@ body {
   border-bottom: #FDB515 2px solid;
   text-align: left;
   font-size: 15px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .teamlead {
@@ -330,13 +333,32 @@ body {
   text-align: center;
 }
 
+.icontext {
+  text-align: center;
+  z-index: 10;
+}
+
+.icon {
+  position: relative;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  z-index: 10;
+}
+
+.icon:hover {
+transform: scale(1.2);
+transition: 300ms;
+}
+
 .ocf {
   position: relative;
-  bottom: -100px;
+  bottom: -50px;
   right: 0px;
   float: right;
   font-size: 8px;
-  color: #FFFFFF;
+  color: #C0C0C0;
   padding: 10px;
 }
 
