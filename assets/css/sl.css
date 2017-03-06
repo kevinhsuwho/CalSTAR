@@ -189,6 +189,11 @@ p:hover {
 
 .docoverlay:nth-child(5) {
   border-top: #FDB515 solid 2px;
+  border-bottom: #FDB515 solid 2px;
+}
+
+.docoverlay:nth-child(6) {
+  border-top: #FDB515 solid 2px;
 }
 
 a {
