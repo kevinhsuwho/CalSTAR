@@ -287,6 +287,18 @@ body {
   border-bottom: #FDB515 2px solid;
 }
 
+.docoverlay {
+  display: block;
+  position: relative;
+  color: #FDB515;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 100px;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 9;
+}
+
 .donorlist {
   list-style-type: none;
   column-count: 2;
@@ -301,6 +313,7 @@ body {
   text-align: center;
   font-weight: lighter;
   line-height: 20px;
+  padding-top: 20px;
   padding-bottom: 40px;
   margin-bottom: 30px;
 }
