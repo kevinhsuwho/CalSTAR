@@ -167,9 +167,16 @@ p:hover {
   border-bottom: #FDB515 solid 2px;
 }
 
-.docoverlay:nth-child(1) {
+.docoverlaytitle {
+  border: #FDB515 4px solid;
   border-bottom: #FDB515 solid 2px;
+  border-top: #FDB515 solid 2px;
   background-color: rgba(0,0,0,1);
+}
+
+.docoverlay:nth-child(1) {
+  border-top: #FDB515 solid 2px;
+  border-bottom: #FDB515 solid 2px;
 }
 
 .docoverlay:nth-child(2) {
