@@ -32,6 +32,30 @@ nav{
   border-bottom: solid #fdb515 1px;
 }
 
+a:link {
+    color: #FDB515; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FDB515;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FDB515;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FDB515;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 .burger{
   display: none;
 }
@@ -140,6 +164,16 @@ body {
   margin-bottom: 30px;
 }
 
+.donors {
+  position: relative;
+  text-align: left;
+  font-size: 24px;
+  margin: 0 100px;
+  color: #FDB515;
+  z-index: 10;
+  letter-spacing: 2px;
+}
+
 .want {
   position: relative;
   font-size: 18px;
@@ -246,6 +280,25 @@ body {
   letter-spacing: 1px;
   /*display: none;*/
   text-align: left;
+  font-weight: lighter;
+  line-height: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-bottom: #FDB515 2px solid;
+}
+
+.description5 {
+  list-style-type: none;
+  column-count: 2;
+  display: block;
+  position: relative;
+  margin: 0 100px;
+  font-size: 18px;
+  z-index: 2;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+/*  display: none;*/
+  text-align: center;
   font-weight: lighter;
   line-height: 20px;
   padding-bottom: 40px;
@@ -400,6 +453,13 @@ b {
     line-height: 17px;
     padding: 0 60px;
   }
+    
+    .description5 {
+        font-size: 15px;
+        letter-spacing: 0.7px;
+        line-height: 17px;
+        padding: 0 60px;
+    }
 
   .sponsor1 img {
     width: 200px;
@@ -453,6 +513,13 @@ b {
     line-height: 15px;
     padding: 0 30px;
   }
+    
+    .description5 {
+        font-size: 13px;
+        letter-spacing: 0.7px;
+        line-height: 15px;
+        margin: 0 30px;
+    }
 
   .sponsor1 img {
     width: 200px;

@@ -18,6 +18,30 @@
   padding: 0;
 }
 
+a:link {
+    color: #FFFFFF;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 nav{
   position: fixed;
   width: 100%;
