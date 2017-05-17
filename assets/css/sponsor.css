@@ -167,7 +167,7 @@ body {
 .donors {
   position: relative;
   text-align: left;
-  font-size: 24px;
+  font-size: 30px;
   margin: 0 100px;
   color: #FDB515;
   z-index: 10;
@@ -287,7 +287,7 @@ body {
   border-bottom: #FDB515 2px solid;
 }
 
-.description5 {
+.donorlist {
   list-style-type: none;
   column-count: 2;
   display: block;
@@ -453,13 +453,6 @@ b {
     line-height: 17px;
     padding: 0 60px;
   }
-    
-    .description5 {
-        font-size: 15px;
-        letter-spacing: 0.7px;
-        line-height: 17px;
-        padding: 0 60px;
-    }
 
   .sponsor1 img {
     width: 200px;
@@ -513,13 +506,6 @@ b {
     line-height: 15px;
     padding: 0 30px;
   }
-    
-    .description5 {
-        font-size: 13px;
-        letter-spacing: 0.7px;
-        line-height: 15px;
-        margin: 0 30px;
-    }
 
   .sponsor1 img {
     width: 200px;
