@@ -157,12 +157,6 @@ body {
   opacity: 0;
 }
 
-#f1 {
-  background: url("../images/jordan.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .name {
   position: relative;
   top: 160px;
@@ -174,6 +168,18 @@ body {
   font-weight: bold;
 }
 
+#f0 {
+  background: url("../images/Carly%20Pritchett.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#f1 {
+  background: url("../images/Brunston%20Poon.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 #f2 {
   background: url("../images/adam.jpg");
   background-size: cover;
@@ -181,42 +187,60 @@ body {
 }
 
 #f3 {
-  background: url("../images/avyay.jpg");
+  background: url("../images/Aaron%20Togelang.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #f4 {
-  background: url("../images/kevin.jpg");
+  background: url("../images/Agent%20SPak.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #f5 {
-  background: url("../images/aaron.png");
+  background: url("../images/jordan.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #f6 {
-  background: url("../images/jacob.png");
+  background: url("../images/adam.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #f7 {
-  background: url("../images/jia.jpg");
+  background: url("../images/avyay.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #f8 {
-  background: url("../images/grant.png");
+  background: url("../images/jia.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #f9 {
+  background: url("../images/Aaron%20Togelang.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#f10 {
+  background: url("../images/jacob.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#f11 {
+  background: url("../images/grant.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#f12 {
   background: url("../images/ryan.png");
   background-size: cover;
   background-position: center;
@@ -284,6 +308,19 @@ body {
   text-align: center;
   left: -26px;
   top: 10px;
+  display:  inline-block;
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 18px;
+  width: 210px;
+}
+
+#webmaster {
+  position: relative;
+  margin:  0 auto;
+  text-align: center;
+  left: -26px;
+  top: 0px;
   display:  inline-block;
   font-size: 13px;
   font-weight: 200;
