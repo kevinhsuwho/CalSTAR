@@ -191,6 +191,24 @@ body {
   line-height: 20px;
 }
 
+.spacket {
+  text-align: center;
+  padding: 10px 0px;
+  padding-top: 20px;
+}
+.spacket img {
+  position: relative;
+  display:inline-block;
+  width: auto;
+  height: 200px;
+  z-index: 2;
+  margin: 0 auto;
+  text-align: center;
+  object-fit: cover;
+  object-position: top;
+  /*display: none;*/
+}
+
 .sponsor1 {
   text-align: center;
 }
@@ -238,6 +256,7 @@ body {
   object-position: top;
   /*display: none;*/
 }
+
 .sponsor4 {
   text-align: center;
   padding: 10px 0px;
@@ -246,6 +265,21 @@ body {
   position: relative;
   width: 500px;
   height: 50px;
+  z-index: 2;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: top;
+  /*display: none;*/
+}
+
+.sponsor5 {
+  text-align: center;
+  padding: 10px 0px;
+}
+.sponsor5 img {
+  position: relative;
+  width: auto;
+  height: 100px;
   z-index: 2;
   margin: 0 auto;
   object-fit: cover;
@@ -268,7 +302,7 @@ body {
   line-height: 20px;
 }
 
-.description4 {
+.descriptionlast {
   display: inline-block;
   position: relative;
   text-align: left;
