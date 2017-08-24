@@ -107,7 +107,7 @@ body {
   overflow-x: hidden;
 }
 
-.text-container:before {
+.tex-container:before {
   content: '';
   position: fixed;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
@@ -126,7 +126,7 @@ body {
   font-size: 40px;
   color: #FDB515;
   top: 100px;
-  z-index: 10;
+  z-index: 11;
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
@@ -147,6 +147,23 @@ body {
   z-index: 10;
   font-weight: lighter;
   line-height: 20px;
+}
+
+.calendartitle {
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  color: #FDB515;
+  letter-spacing: 2px;
+  z-index: 9;
+}
+
+.calendar {
+  position: relative;
+  margin: 0 auto;
+  z-index: 10;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -158,8 +175,6 @@ b {
 
 .ready {
   padding-bottom: 30px;
-  margin-bottom: 50px;
-  border-bottom: #FDB515 2px solid;
 }
 
 .team {
