@@ -122,7 +122,6 @@ body {
   padding-top: 100px;
   padding-bottom: 50px;
   margin-bottom: 30px;
-  border-bottom: #FDB515 2px solid;
 }
 
 .leader {
@@ -349,15 +348,6 @@ body {
   text-align: left;
   font-size: 15px;
   padding-top: 30px;
-}
-
-.teamlead {
-  margin: 0 auto;
-  color: #FDB515;
-  z-index: 10;
-  letter-spacing: 3px;
-  text-align: left;
-  font-size: 15px;
 }
 
 .faces2 {
