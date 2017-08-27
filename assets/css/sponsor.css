@@ -287,6 +287,21 @@ body {
   /*display: none;*/
 }
 
+.sponsor6 {
+  text-align: center;
+  padding: 10px 0px;
+}
+.sponsor6 img {
+  position: relative;
+  width: auto;
+  height: 75px;
+  z-index: 2;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: top;
+  /*display: none;*/
+}
+
 .description {
   display: inline-block;
   position: relative;
