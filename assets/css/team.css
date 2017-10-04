@@ -180,7 +180,7 @@ body {
 }
 
 #f2 {
-  background: url("../images/adam.jpg");
+  background: url("../images/Adam%20Huth.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -192,25 +192,25 @@ body {
 }
 
 #f4 {
-  background: url("../images/Agent%20SPak.jpg");
+  background: url("../images/Sean%20Pak.JPG");
   background-size: cover;
   background-position: center;
 }
 
 #f5 {
-  background: url("../images/jordan.jpg");
+  background: url("../images/Tushar%20Singla.JPG");
   background-size: cover;
   background-position: center;
 }
 
 #f6 {
-  background: url("../images/adam.jpg");
+  background: url("../images/Allen%20Ruan.JPG");
   background-size: cover;
   background-position: center;
 }
 
 #f7 {
-  background: url("../images/avyay.jpg");
+  background: url("../images/Carly%20Pritchett.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -228,19 +228,37 @@ body {
 }
 
 #f10 {
-  background: url("../images/jacob.png");
+  background: url("../images/Jacob%20Posner.JPG");
   background-size: cover;
   background-position: center;
 }
 
 #f11 {
-  background: url("../images/grant.png");
+  background: url("../images/Grant%20Posner.JPG");
   background-size: cover;
   background-position: center;
 }
 
 #f12 {
   background: url("../images/ryan.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#f13 {
+  background: url("../images/Junyoung%20Park.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+#f14 {
+  background: url("../images/Dinesh%20Parimi.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+#f15 {
+  background: url("../images/Ilyas%20Kamil.JPG");
   background-size: cover;
   background-position: center;
 }
@@ -350,6 +368,37 @@ body {
   padding-top: 30px;
 }
 
+.subteams {
+  position: relative;
+  margin: 0 auto;
+  color: #FDB515;
+  z-index: 10;
+  letter-spacing: 3px;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-left: 1.8em;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+}
+
+.column2 {
+  float: right;
+  width: 50%;
+}
+
+.row {
+  content: "";
+  clear: both;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 .faces2 {
   position: relative;
   padding: 0px 0px;
@@ -358,6 +407,7 @@ body {
   margin: 0 auto;
   display: block;
   text-align: center;
+  width: 100%;
 }
 
 .icontext {
@@ -450,6 +500,12 @@ transition: 300ms;
 
   .faces {
     padding: 80px 20px;
+  }
+    
+  .airframe {
+    padding: 60px 20px;
+    padding-bottom: 0px;
+    margin-top: -30px;
   }
 
   .faces2 {
